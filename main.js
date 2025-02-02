@@ -5,8 +5,15 @@ const stateDetails = [
         leader: "M.K.Stalin",
         party: "DMK",
         link: "https://en.wikipedia.org/wiki/TamilNadu",
-        coords: "211,624,212,615,213,606,218,599,215,589,211,580,205,578,203,568,195,559,197,553,206,551,213,550,219,543,227,543,225,532,233,527,242,527,251,523,273,520,290,514,289,532,279,543,277,553,278,564,279,577,279,583,268,580,264,586,263,592,259,599,257,605,249,604,237,610,239,615,235,619,231,623,224,629,216,628"
-    },  
+        coords: "211,624,212,615,213,606,218,599,215,589,211,580,205,578,203,568,195,559,197,553,206,551,213,550,219,543,227,543,225,532,233,527,242,527,251,523,273,520,290,514,289,532,279,543,277,553,278,564,279,577,279,583,268,580,264,586,263,592,259,599,257,605,249,604,237,610,239,615,235,619,231,623,224,629,216,628",
+        stateImg:"state-tamilnadu.jpg",
+        capital:"Chennai",
+        dance:" Bharatnatyam",
+        language:"தமிழ் (Tamil)",
+        danceImg:"tamilnaduDance.jpg",
+        famousPlace:[{name:"Thanjavur",img:"tamilnaduPlace1.webp"},{name:"Kanniyakumari Thiruvalluvar Statue",img:"tamilnaduPlace2.webp"}]
+
+    },
     {
         state: "KERALA",
         img: "vijayan.jpeg",
@@ -21,7 +28,7 @@ const stateDetails = [
         leader: "N.Chandrababu Naidu",
         party: "Telugu Desam Party",
         link: "https://en.wikipedia.org/wiki/AndraPradesh",
-        coords:"231,503,239,508,247,513,249,521,243,527,256,520,265,520,275,514,283,516,290,511,287,502,286,487,286,476,293,467,300,460,306,466,309,456,315,451,328,448,340,447,339,437,343,431,354,427,363,417,377,409,383,401,396,393,384,393,375,396,369,394,362,396,354,403,347,407,340,405,339,412,329,415,321,418,313,419,305,422,313,425,310,431,304,435,296,437,298,445,291,439,281,443,269,447,265,453,256,455,241,459,229,461,216,463,215,475,211,479,208,484,208,490,212,495,218,498,209,507,216,503,223,507",
+        coords: "231,503,239,508,247,513,249,521,243,527,256,520,265,520,275,514,283,516,290,511,287,502,286,487,286,476,293,467,300,460,306,466,309,456,315,451,328,448,340,447,339,437,343,431,354,427,363,417,377,409,383,401,396,393,384,393,375,396,369,394,362,396,354,403,347,407,340,405,339,412,329,415,321,418,313,419,305,422,313,425,310,431,304,435,296,437,298,445,291,439,281,443,269,447,265,453,256,455,241,459,229,461,216,463,215,475,211,479,208,484,208,490,212,495,218,498,209,507,216,503,223,507",
     },
     {
         state: "KARANATAKA",
@@ -77,7 +84,7 @@ const stateDetails = [
         leader: "Nayab Singh Saini",
         party: "BJP",
         link: "https://en.wikipedia.org/wiki/Haryana",
-        coords: "184,166,193,166,199,165,202,158,209,158,212,153,215,146,221,147,227,152,226,160,221,165,221,176,221,186,215,186,212,192,218,195,227,196,228,203,222,209,216,209,215,201,209,203,202,200,199,206,195,202,191,195,185,188,184,175,177,177,166,173,166,165,171,161,176,165" 
+        coords: "184,166,193,166,199,165,202,158,209,158,212,153,215,146,221,147,227,152,226,160,221,165,221,176,221,186,215,186,212,192,218,195,227,196,228,203,222,209,216,209,215,201,209,203,202,200,199,206,195,202,191,195,185,188,184,175,177,177,166,173,166,165,171,161,176,165"
     },
     {
         state: "UTTARAKHAND",
@@ -93,7 +100,7 @@ const stateDetails = [
         leader: "Bhajan Lal Sharma",
         party: "BJP",
         link: "https://en.wikipedia.org/wiki/Rajasthan",
-        coords: "84,268,78,257,75,246,62,243,63,233,57,225,54,217,61,208,75,199,79,206,91,202,100,202,109,194,119,184,131,179,140,162,153,156,160,158,165,162,165,170,174,174,183,176,187,189,195,196,196,204,201,201,208,202,215,201,215,210,223,210,227,217,226,225,232,227,243,228,235,236,221,241,209,248,205,256,211,258,219,260,224,263,215,266,212,272,219,275,212,278,214,284,203,283,192,286,184,292,183,286,186,280,187,272,179,270,169,263,167,270,167,278,167,285,167,294,160,301,155,306,143,298,135,288,127,278,118,274,106,270,95,270" 
+        coords: "84,268,78,257,75,246,62,243,63,233,57,225,54,217,61,208,75,199,79,206,91,202,100,202,109,194,119,184,131,179,140,162,153,156,160,158,165,162,165,170,174,174,183,176,187,189,195,196,196,204,201,201,208,202,215,201,215,210,223,210,227,217,226,225,232,227,243,228,235,236,221,241,209,248,205,256,211,258,219,260,224,263,215,266,212,272,219,275,212,278,214,284,203,283,192,286,184,292,183,286,186,280,187,272,179,270,169,263,167,270,167,278,167,285,167,294,160,301,155,306,143,298,135,288,127,278,118,274,106,270,95,270"
     },
     {
         state: "UTTAR PRADESH",
@@ -117,7 +124,7 @@ const stateDetails = [
         leader: "Bhupendra Patel",
         party: "BJP",
         link: "https://en.wikipedia.org/wiki/Gujarat",
-        coords: "15,286,21,278,28,279,31,271,43,274,56,275,64,275,72,275,81,275,83,269,91,269,103,271,118,273,127,279,133,286,144,301,158,312,150,318,148,327,142,331,140,337,148,337,143,342,137,345,140,351,137,356,131,356,130,364,123,367,118,361,118,353,114,342,115,333,115,321,103,323,99,331,104,335,99,344,87,350,71,353,57,347,40,330,31,316,38,316,47,315,54,311,65,307,71,299,63,299,56,301,48,306,39,306,31,300,24,292" 
+        coords: "15,286,21,278,28,279,31,271,43,274,56,275,64,275,72,275,81,275,83,269,91,269,103,271,118,273,127,279,133,286,144,301,158,312,150,318,148,327,142,331,140,337,148,337,143,342,137,345,140,351,137,356,131,356,130,364,123,367,118,361,118,353,114,342,115,333,115,321,103,323,99,331,104,335,99,344,87,350,71,353,57,347,40,330,31,316,38,316,47,315,54,311,65,307,71,299,63,299,56,301,48,306,39,306,31,300,24,292"
     },
     {
         state: "MADHYA PRADESH",
@@ -227,7 +234,7 @@ const stateDetails = [
         state: "JHARKHAND",
         img: "jar.png",
         link: "https://en.wikipedia.org/wiki/Jharkand",
-        coords:"360,279,371,277,380,277,387,279,398,279,409,276,417,271,426,276,437,275,444,270,446,261,455,261,459,268,457,281,449,286,441,290,433,293,422,298,417,304,425,307,432,308,436,315,440,323,432,322,422,319,420,327,413,329,404,329,401,322,394,321,385,321,377,321,380,316,382,310,375,307,374,300,373,293,366,295,361,290" ,
+        coords: "360,279,371,277,380,277,387,279,398,279,409,276,417,271,426,276,437,275,444,270,446,261,455,261,459,268,457,281,449,286,441,290,433,293,422,298,417,304,425,307,432,308,436,315,440,323,432,322,422,319,420,327,413,329,404,329,401,322,394,321,385,321,377,321,380,316,382,310,375,307,374,300,373,293,366,295,361,290",
         leader: "Ramgarh",
         party: "Jharkhand Mukti Morcha"
     },
@@ -235,11 +242,11 @@ const stateDetails = [
         state: "BIHAR",
         img: "bih.jpeg",
         link: "https://en.wikipedia.org/wiki/Bihar",
-        coords:"376,242,377,247,386,251,381,252,374,254,366,259,359,266,362,274,368,276,376,275,384,278,392,276,399,278,407,275,414,270,421,271,428,277,434,273,442,271,446,264,453,258,459,257,463,249,458,243,464,236,457,232,449,235,440,232,373,236,378,232,375,226,368,217,375,215,385,218,388,224,395,227,402,229,409,227,400,235,418,231,374,236,371,240,376,246,432,233",
+        coords: "376,242,377,247,386,251,381,252,374,254,366,259,359,266,362,274,368,276,376,275,384,278,392,276,399,278,407,275,414,270,421,271,428,277,434,273,442,271,446,264,453,258,459,257,463,249,458,243,464,236,457,232,449,235,440,232,373,236,378,232,375,226,368,217,375,215,385,218,388,224,395,227,402,229,409,227,400,235,418,231,374,236,371,240,376,246,432,233",
         leader: "Bakhtiarpur",
         party: " Janata Dal (United)"
     }
-   
+
 ];
 
 
@@ -249,22 +256,22 @@ let scrollContainer = document.getElementById("scrollList");
 stateDetails.forEach(state => {
     const div = document.createElement('div');
     div.classList.add(state.state.toLowerCase().replace(" ", ""));
-    div.style.position = 'absolute'; 
+    div.style.position = 'absolute';
     div.style.display = 'none';
-    div.style.padding = '10px'; 
+    div.style.padding = '10px';
     div.style.backgroundColor = '#f0f0f0';
-    div.style.borderRadius = '15px'; 
-    div.style.boxShadow = '0px 4px 10px rgba(0, 0, 0, 0.2)'; 
+    div.style.borderRadius = '15px';
+    div.style.boxShadow = '0px 4px 10px rgba(0, 0, 0, 0.2)';
     div.style.padding = '10px';
     div.style.cursor = 'pointer';
     div.style.transition = 'all 0.3s ease';
 
     div.style.display = 'flex';
     div.style.flexDirection = 'column';
-    div.style.alignItems = 'center'; 
-    div.style.justifyContent = 'center'; 
+    div.style.alignItems = 'center';
+    div.style.justifyContent = 'center';
 
- 
+
     const header = document.createElement('div');
     header.style.display = 'flex';
     header.style.flexDirection = 'row';
@@ -274,21 +281,21 @@ stateDetails.forEach(state => {
     const img = document.createElement('img');
     img.src = state.img;
     img.alt = state.leader;
-    img.width = 50; 
+    img.width = 50;
     img.height = 50;
-    img.style.borderRadius = '50%'; 
-    img.style.marginRight = '10px'; 
+    img.style.borderRadius = '50%';
+    img.style.marginRight = '10px';
 
     const h3 = document.createElement('h3');
     h3.textContent = state.state;
     h3.style.margin = '0';
     h3.style.fontSize = '14px';
     h3.style.fontWeight = 'bold';
-    h3.style.color = '#333'; 
+    h3.style.color = '#333';
 
     header.appendChild(img);
     header.appendChild(h3);
-    
+
     const cmAndPartyDiv = document.createElement('div');
     cmAndPartyDiv.style.marginTop = '10px';
     cmAndPartyDiv.style.fontSize = '12px';
@@ -307,55 +314,64 @@ stateDetails.forEach(state => {
     cmAndPartyDiv.appendChild(p);
 
     div.appendChild(header);
-    div.appendChild(cmAndPartyDiv); 
+    div.appendChild(cmAndPartyDiv);
 
     const area = document.createElement('area');
     area.target = '_blank';
     area.alt = state.state;
-    // area.title = state.state;
     area.href = state.link;
     area.coords = state.coords;
     area.shape = 'poly';
 
-    div.appendChild(area); 
+    div.appendChild(area);
 
     mapContainer.appendChild(div);
-    
-    // div.addEventListener('mouseenter', () => {
-    //     div.style.transform = 'translateY(10px) scale(1.05)';
-    //     div.style.boxShadow = '0px 10px 20px rgba(0, 0, 0, 0.3)'; 
-    //     div.style.transition = 'transform 0.3s ease-out, box-shadow 0.3s ease-out'; 
-    //     div.style.display = 'block';
-    // });
-
-    // div.addEventListener('mouseleave', () => {
-    //     div.style.transform = 'translateY(0) scale(1)'; 
-    //     div.style.boxShadow = '0px 4px 10px rgba(0, 0, 0, 0.2)'; // Default shadow
-    //     div.style.transition = 'transform 0.3s ease-in, box-shadow 0.3s ease-in'; // Smooth transition back to original state
-    // });
 
     div.addEventListener('mouseenter', (event) => {
         div.style.display = "block";
         div.style.transform = 'translateY(10px) scale(1.05)';
-        div.style.boxShadow = '0px 10px 20px rgba(0, 0, 0, 0.3)'; 
-        div.style.transition = 'transform 0.3s ease-out, box-shadow 0.3s ease-out'; 
-        div.style.left = event.pageX + 'px'; 
-        div.style.top = event.pageY + 'px'; 
-        scrollContainer.innerHTML=`${state.state}`
-   
+        div.style.boxShadow = '0px 10px 20px rgba(0, 0, 0, 0.3)';
+        div.style.transition = 'transform 0.3s ease-out, box-shadow 0.3s ease-out';
+        div.style.left = event.pageX + 'px';
+        div.style.top = event.pageY + 'px';
+        
+        scrollContainer.style.transform = "translateY(5%)"
+
+        scrollContainer.innerHTML = `<div class="popup" id="popup">
+            <h3>${state.state}</h3>
+            <div class="map">
+        <img src="${state.stateImg}" alt="India-map">
+    </div>
+            <p><strong>🔹 Capital:</strong> ${state.capital}</p>
+            <p><strong>🔹 Language:</strong> ${state.language}</p>
+            <p><strong>🔹 Famous Dance:</strong> ${state.dance}</p>
+              <div class="map">
+        <img src="${state.danceImg}" alt="India-map">
+    </div>
+     <p><strong>🔹 Famous Place:</strong> ${state.famousPlace[0].name}</p>
+         <div class="map">
+        <img src="${state.famousPlace[0].img}" alt="India-map" >
+    </div>
+     <p><strong>🔹 Famous Place:</strong> ${state.famousPlace[1].name}</p>
+         <div class="map">
+        <img src="${state.famousPlace[1].img}" alt="India-map" >
+    </div>`
+
     });
 
     div.addEventListener('mousemove', (event) => {
         div.style.left = event.pageX + 'px';
         div.style.top = event.pageY + 'px';
-       
+
     });
 
     div.addEventListener('mouseleave', () => {
         div.style.display = 'none';
-        div.style.transform = 'translateY(0) scale(1)'; 
-        div.style.boxShadow = '0px 4px 10px rgba(0, 0, 0, 0.2)'; // Default shadow
-        div.style.transition = 'transform 0.3s ease-in, box-shadow 0.3s ease-in'; // Smooth transition back to original state
+        scrollContainer.innerHTML = ""
+
+        div.style.transform = 'translateY(0) scale(1)';
+        div.style.boxShadow = '0px 4px 10px rgba(0, 0, 0, 0.2)';
+        div.style.transition = 'transform 0.3s ease-in, box-shadow 0.3s ease-in';
     });
     div.style.display = 'none';
 });

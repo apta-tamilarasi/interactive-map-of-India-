@@ -12,17 +12,11 @@ body {
     justify-content: space-around;
    
 }
-/* 
-.map{
-    width: 90%;
-    height: 98%;
-}
-.map img{
-    height: 100%;
 
-} */
+
 .sidebar {
-    width: 200px;
+    width: 500px;
+    padding: 10px;
     height: 98%;
     overflow: hidden;
     position: relative;
@@ -33,12 +27,22 @@ body {
     position: absolute;
     top: 0;
     width: 98%;
-    animation: scrollUp 10s linear infinite;
+    padding: 10px;
+    animation: scrollUp 20s linear infinite;
 }
+.scroll-container .map{
+    width: 100%;
+}
+.map img{
+    width: 100%;
+}
+
+
 @keyframes scrollUp {
-    0% { transform: translateY(0); }
+    0% { transform: translateY(5%); }
     100% { transform: translateY(-50%); }
 }
+
 .item {
     padding: 15px;
     border-bottom: 1px solid #ddd;
@@ -53,4 +57,6 @@ body {
 .show {
     display: block;
 }
+
+
 
