@@ -40,7 +40,7 @@ body {
 
 @keyframes scrollUp {
     0% { transform: translateY(5%); }
-    100% { transform: translateY(-50%); }
+    100% { transform: translateY(-100%); }
 }
 
 .item {
